@@ -13,8 +13,8 @@
 <v t="amd.20150913232631.1"><vh>@settings</vh>
 <v t="amd.20150913232631.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20150913232631.3"><vh>@string initial_split_orientation = horizontal</vh></v>
-<v t="amd.20150915153206.1" a="E"><vh>專案說明</vh>
-<v t="amd.20150919102209.1" a="E"><vh>使用工具</vh>
+<v t="amd.20150915153206.1"><vh>專案說明</vh>
+<v t="amd.20150919102209.1"><vh>使用工具</vh>
 <v t="amd.20150919112415.1"><vh>影片檔案</vh></v>
 </v>
 <v t="amd.20150919102541.1"><vh>pelican 與 Markdown</vh></v>
@@ -29,14 +29,14 @@
 </v>
 <v t="amd.20150919103357.1"><vh>pelican 設定</vh></v>
 <v t="amd.20150920030003.1"><vh>IPython notebook 整合</vh></v>
-<v t="amd.20150919112710.1" a="E"><vh>@path pelican</vh>
+<v t="amd.20150919112710.1"><vh>@path pelican</vh>
 <v t="amd.20150919113340.1"><vh>以下為與 pelican 有關的設定檔案</vh></v>
 <v t="amd.20150919113132.1"><vh>@edit publishconf.py</vh></v>
 </v>
 </v>
 <v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh></v>
 <v t="amd.20150919124128.1"><vh>@button pelican content</vh></v>
-<v t="amd.20150919114010.1" a="E"><vh>@path pelican\content</vh>
+<v t="amd.20150919114010.1"><vh>@path pelican\content</vh>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
 <v t="amd.20150920000911.1"><vh>@edit 2015cpnote1.md</vh></v>
 <v t="leo.20151028213353.1"><vh>@edit 2015cphww2.md</vh></v>
@@ -44,7 +44,7 @@
 <v t="leo.20151106204409.1"><vh>@edit 2015cphww4.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
-<v t="amd.20150913233943.1"><vh>@clean cadpbw1.html</vh>
+<v t="amd.20150913233943.1" a="E"><vh>@clean cadpbw1.html</vh>
 <v t="amd.20150913233943.2" a="E"><vh>html</vh>
 <v t="amd.20150913233943.3" a="E"><vh>head</vh>
 <v t="amd.20150913233943.4"><vh>title</vh></v>
@@ -70,13 +70,13 @@
 </v>
 </v>
 <v t="amd.20150915155634.1"><vh>@clean cadpaw1.html</vh>
-<v t="amd.20150915155634.2"><vh>html 標註</vh>
-<v t="amd.20150915155634.3"><vh>head</vh>
+<v t="amd.20150915155634.2" a="E"><vh>html 標註</vh>
+<v t="amd.20150915155634.3" a="E"><vh>head</vh>
 <v t="amd.20150915155634.4"><vh>title - 標題</vh></v>
 <v t="amd.20150915155634.5"><vh>meta - 說明</vh></v>
 <v t="amd.20150915155634.7"><vh>script - css 與 pdf 列印</vh></v>
 </v>
-<v t="amd.20150915155634.8"><vh>body</vh>
+<v t="amd.20150915155634.8" a="E"><vh>body</vh>
 <v t="amd.20150915155634.9" a="E"><vh>div - reveal</vh>
 <v t="amd.20150915155634.10" a="E"><vh>div - slides</vh>
 <v t="amd.20150915155634.11"><vh>h1 - 課程說明</vh></v>

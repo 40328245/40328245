@@ -36,7 +36,7 @@
 </v>
 <v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh></v>
 <v t="amd.20150919124128.1"><vh>@button pelican content</vh></v>
-<v t="amd.20150919114010.1"><vh>@path pelican\content</vh>
+<v t="amd.20150919114010.1" a="E"><vh>@path pelican\content</vh>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
 <v t="amd.20150920000911.1"><vh>@edit 2015cpnote1.md</vh></v>
 <v t="leo.20151028213353.1"><vh>@edit 2015cphww2.md</vh></v>
@@ -44,7 +44,7 @@
 <v t="leo.20151106204409.1"><vh>@edit 2015cphww4.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
-<v t="amd.20150913233943.1" a="E"><vh>@clean cadpbw1.html</vh>
+<v t="amd.20150913233943.1"><vh>@clean cadpbw1.html</vh>
 <v t="amd.20150913233943.2" a="E"><vh>html</vh>
 <v t="amd.20150913233943.3" a="E"><vh>head</vh>
 <v t="amd.20150913233943.4"><vh>title</vh></v>
@@ -342,14 +342,17 @@
 <v t="leo.20151106204536.3"><vh>檔案說明</vh></v>
 <v t="leo.20151106204536.4" a="E"><vh>html 標註</vh>
 <v t="leo.20151106204536.5" a="E"><vh>div class="reveal"</vh>
-<v t="leo.20151106204536.6"><vh>div class="slides"</vh>
+<v t="leo.20151106204536.6" a="E"><vh>div class="slides"</vh>
 <v t="leo.20151106204536.7"><vh>介紹</vh></v>
+<v t="leo.20151108121738.1"><vh>筆記(第一,二周)</vh></v>
+<v t="leo.20151108122002.1"><vh>筆記(第四周)</vh></v>
+<v t="leo.20151108122150.1"><vh>筆記(第五周)</vh></v>
 <v t="leo.20151106204536.8"><vh>期中心得</vh></v>
 <v t="leo.20151106204536.9"><vh>單字整理</vh></v>
 <v t="leo.20151106204536.10"><vh>評分</vh></v>
 </v>
 </v>
-<v t="leo.20151106204536.11" a="E"><vh>body 標註</vh>
+<v t="leo.20151106204536.11"><vh>body 標註</vh>
 <v t="leo.20151106204536.12"><vh>script</vh></v>
 </v>
 </v>
@@ -2577,6 +2580,40 @@ sudo pip3 install IPython[notebook]==3.2.1
     &lt;p&gt;handle:手柄&lt;/p&gt;
     &lt;p&gt;hinge:鉸鏈&lt;/p&gt;
     &lt;p&gt;piston:活塞&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20151108121738.1">&lt;section&gt;
+    &lt;h1&gt;筆記&lt;/h1&gt;
+    &lt;p&gt; 第一、二週&lt;/p&gt;
+    &lt;p&gt;日期 : 09/14~09/27&lt;/p&gt;
+    &lt;p&gt;利用leo作PPT在上傳至GITHUB&lt;/p&gt;
+    &lt;p&gt;cd XXX :進入某資料夾&lt;/p&gt;
+    &lt;p&gt;git branch:查看分支&lt;/p&gt;
+    &lt;p&gt;git add -A:加入檔案至index&lt;/p&gt;
+    &lt;p&gt;git commit -m  "倉儲名稱":複製檔案至倉儲&lt;/p&gt;
+    &lt;p&gt;git push origin "分支名稱":複製檔案至分支&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20151108122002.1">&lt;section&gt;
+    &lt;h1&gt;筆記&lt;/h1&gt;
+    &lt;p&gt;第四週&lt;/p&gt;
+    &lt;p&gt;日期 : 10/05~10/11&lt;/p&gt;
+    &lt;p&gt;利用solvespace製作L型支架&lt;/p&gt;
+    &lt;p&gt;X軸為R&lt;/p&gt;
+    &lt;p&gt;Y軸為G&lt;/p&gt;
+    &lt;p&gt;Z軸為B&lt;/p&gt;    
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20151108122150.1">&lt;section&gt;
+    &lt;h1&gt;筆記&lt;/h1&gt;
+    &lt;p&gt;第五週&lt;/p&gt;
+    &lt;p&gt;日期 : 10/12~10/18&lt;/p&gt;
+    &lt;p&gt;creo direct:可以直接建模 &lt;/p&gt;
+    &lt;p&gt;ptc  creo parametric :有繪圖歷程、參數約束&lt;/p&gt;
+    &lt;p&gt;creo simulate:分析&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>

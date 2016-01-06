@@ -42,6 +42,8 @@
 <v t="leo.20151028213353.1"><vh>@edit 2015cphww2.md</vh></v>
 <v t="leo.20151101171606.1"><vh>@edit 2015cphww3.md</vh></v>
 <v t="leo.20151106204409.1"><vh>@edit 2015cphww4.md</vh></v>
+<v t="leo.20160106152208.1"><vh>@edit 2015cphww5.md</vh></v>
+<v t="leo.20160106172852.1"><vh>@edit 2015cphww6.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
 <v t="amd.20150913233943.1"><vh>@clean cadpbw1.html</vh>
@@ -354,6 +356,45 @@
 </v>
 <v t="leo.20151106204536.11"><vh>body 標註</vh>
 <v t="leo.20151106204536.12"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="leo.20160106152317.1" a="E"><vh>@clean simplest5.html</vh>
+<v t="leo.20160106152317.2"><vh>newHeadline</vh></v>
+<v t="leo.20160106152317.3"><vh>檔案說明</vh></v>
+<v t="leo.20160106152317.4" a="E"><vh>html 標註</vh>
+<v t="leo.20160106152317.5" a="E"><vh>div class="reveal"</vh>
+<v t="leo.20160106152317.6" a="E"><vh>div class="slides"</vh>
+<v t="leo.20160106152317.7"><vh>介紹</vh>
+<v t="leo.20160106153416.1"><vh>&lt;&lt; header &gt;&gt;</vh></v>
+</v>
+<v t="leo.20160106164238.1"><vh>筆記</vh>
+<v t="leo.20160106153416.1"></v>
+</v>
+<v t="leo.20160106164254.1"><vh>心得與評分</vh>
+<v t="leo.20160106153416.1"></v>
+</v>
+</v>
+</v>
+<v t="leo.20160106152317.11" a="E"><vh>body 標註</vh>
+<v t="leo.20160106152317.12"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="leo.20160106172908.1"><vh>@clean simplest6.html</vh>
+<v t="leo.20160106172908.2"><vh>newHeadline</vh></v>
+<v t="leo.20160106172908.3"><vh>檔案說明</vh></v>
+<v t="leo.20160106172908.4" a="E"><vh>html 標註</vh>
+<v t="leo.20160106172908.5" a="E"><vh>div class="reveal"</vh>
+<v t="leo.20160106172908.6" a="E"><vh>div class="slides"</vh>
+<v t="leo.20160106172908.7"><vh>介紹</vh></v>
+<v t="leo.20160106172908.8"><vh>筆記</vh></v>
+<v t="leo.20160106172908.9"><vh>單字整理</vh></v>
+<v t="leo.20160106172908.10"><vh>心得與評分</vh></v>
+</v>
+</v>
+<v t="leo.20160106172908.11" a="E"><vh>body 標註</vh>
+<v t="leo.20160106172908.12"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -2614,6 +2655,185 @@ sudo pip3 install IPython[notebook]==3.2.1
     &lt;p&gt;creo direct:可以直接建模 &lt;/p&gt;
     &lt;p&gt;ptc  creo parametric :有繪圖歷程、參數約束&lt;/p&gt;
     &lt;p&gt;creo simulate:分析&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20160106152317.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="leo.20160106152317.11">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="leo.20160106152317.12">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="leo.20160106152317.2"></t>
+<t tx="leo.20160106152317.3">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="leo.20160106152317.4">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="leo.20160106152317.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+
+ &lt;header style="position: absolute;top: 20px; left: 20px; z-index:300; font-size:20px;background-color: rgba(255,255,255,0.2)"&gt;&lt;/header&gt;
+ 
+ &lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20160106152317.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20160106152317.7">&lt;&lt; header &gt;&gt;
+
+    &lt;section&gt;
+    &lt;h2&gt;作業 伍&lt;/h2&gt;
+    &lt;p&gt;學號:40328245&lt;/p&gt;
+    &lt;p&gt;班級:四設計二乙&lt;/p&gt;
+    &lt;p&gt;姓名:廖政齊&lt;/p&gt;
+    &lt;p&gt;日期:01/06&lt;/p&gt;		
+    &lt;/section&gt;
+	
+</t>
+<t tx="leo.20160106153416.1">&lt;section data-state="header1"&gt;
+&lt;style&gt;.header1 header:after { 
+display: block;
+white-space: pre;
+content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt;</t>
+<t tx="leo.20160106164238.1">&lt;section&gt;
+    &lt;h2&gt;筆記:在班上倉儲建立LEO檔&lt;/h2&gt;
+    &lt;p&gt;  1.先把班上倉儲git clone&lt;/p&gt;
+    &lt;p&gt;2.再把班上倉儲複製留存&lt;/p&gt;
+    &lt;p&gt;3.把LEO檔複製,並移至自己倉儲內&lt;/p&gt;
+    &lt;p&gt;4.更改LEO內容&lt;/p&gt;
+    &lt;p&gt;5.完成&lt;/p&gt;
+    &lt;p&gt;6.上傳至班上倉儲(先自行確認是否打開的了班上LEO檔案在上傳)&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20160106164254.1">&lt;section&gt;
+    &lt;h2&gt;心得與評分&lt;/h2&gt;
+    &lt;p&gt;剛剛看了老師的影片還有同學教我才學會怎麼把班上的倉儲加上leo檔&lt;/p&gt;
+    &lt;p&gt;雖然有些還是不熟&lt;/p&gt;
+    &lt;p&gt;不過還是有認真在學它&lt;/p&gt;
+    &lt;p&gt;所以給自己70分&lt;/p&gt;
+    
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20160106172908.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="leo.20160106172908.10">&lt;section&gt;
+    &lt;h1&gt;心得與評分&lt;/h1&gt;
+    &lt;p&gt;因為作業之前不見了,&lt;/p&gt;
+    &lt;p&gt;而且有部分有問題,所以全部重做。&lt;/p&gt;
+    &lt;p&gt;對於上傳以沒有甚麼大礙了,可是還有許多功能還沒使用到,&lt;/p&gt;
+    &lt;p&gt;希望能更進一步了解。&lt;/p&gt;
+    &lt;p&gt;評分:60&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20160106172908.11">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="leo.20160106172908.12">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="leo.20160106172908.2"></t>
+<t tx="leo.20160106172908.3">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="leo.20160106172908.4">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="leo.20160106172908.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20160106172908.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20160106172908.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;作業 壹&lt;/h1&gt;
+    &lt;p&gt;學號:40328245&lt;/p&gt;
+    &lt;p&gt;班級:四設計二乙&lt;/p&gt;
+    &lt;p&gt;姓名:廖政齊&lt;/p&gt;
+    &lt;p&gt;日期:10/28&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="leo.20160106172908.8">&lt;section&gt;
+    &lt;h1&gt;筆記&lt;/h1&gt;
+    &lt;p&gt;利用leo作PPT在上傳至GITHUB&lt;/p&gt;
+    &lt;p&gt;cd XXX :進入某資料夾&lt;/p&gt;
+    &lt;p&gt;git branch:查看分支&lt;/p&gt;
+    &lt;p&gt;git add -A:加入檔案至index&lt;/p&gt;
+    &lt;p&gt;git commit -m  "倉儲名稱":複製檔案至倉儲&lt;/p&gt;
+    &lt;p&gt;git push origin "分支名稱":複製檔案至分支&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20160106172908.9">&lt;section&gt;
+    &lt;h1&gt;單字&lt;/h1&gt;
+    &lt;p&gt;repository:倉儲&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>

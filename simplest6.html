@@ -17,42 +17,52 @@
 	<![endif]-->
 </head>
 <!-- 將整個投影片包在 "reveal" class 中 -->
+
+  <header style="position: absolute;top: 20px; left: 20px; z-index:300; font-size:20px;background-color: rgba(255,255,255,0.2)"></header>
+ 
 <div class="reveal">
 <!-- 將所有投影片包在 "slides" class 中 -->
 <div class="slides">
 <!-- 以下為投影片 -->
 <!-- 每一個 section 都代表一張投影片,  -->
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
-<section>
-    <h1>作業 壹</h1>
+<section data-state="header1">
+<style>.header1 header:after { 
+display: block;
+white-space: pre;
+content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }</style>
+
+    <h1>作業 陸</h1>
     <p>學號:40328245</p>
     <p>班級:四設計二乙</p>
     <p>姓名:廖政齊</p>
-    <p>日期:10/28</p>		
+    <p>日期:01/07</p>		
 </section>
 	
-<section>
-    <h1>筆記</h1>
-    <p>利用leo作PPT在上傳至GITHUB</p>
-    <p>cd XXX :進入某資料夾</p>
-    <p>git branch:查看分支</p>
-    <p>git add -A:加入檔案至index</p>
-    <p>git commit -m  "倉儲名稱":複製檔案至倉儲</p>
-    <p>git push origin "分支名稱":複製檔案至分支</p>
+<section data-state="header1">
+<style>.header1 header:after { 
+display: block;
+white-space: pre;
+content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }</style>
+    <h1>筆記:更改fix.bat</h1>
+    <p>1.先至班上網站下載fix壓縮檔</p>
+    <p>2.再下載leo壓縮檔</p>
+    <p>3.修改fix內部的路徑再加入copy leo黨的路徑</p>
+    <p>4.修改start.bat內pip install leo-editor-broke-abbrev.zip</p>
+    <p>5.開啟fix.bat即可修改ana內部的檔案
 </section>
 				
-<section>
-    <h1>單字</h1>
-    <p>repository:倉儲</p>
-</section>
-				
-<section>
+<section data-state="header1">
+<style>.header1 header:after { 
+display: block;
+white-space: pre;
+content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }</style>
+
     <h1>心得與評分</h1>
-    <p>因為作業之前不見了,</p>
-    <p>而且有部分有問題,所以全部重做。</p>
-    <p>對於上傳以沒有甚麼大礙了,可是還有許多功能還沒使用到,</p>
-    <p>希望能更進一步了解。</p>
-    <p>評分:60</p>
+    <p>這次的作業是關於怎麼修改bat的檔案</p>
+    <p>雖然有些程式還沒搞懂</p>
+    <p>不過也了解了許多</p>
+    <p>所以給自己70分</p>
 </section>
 				
 </div>

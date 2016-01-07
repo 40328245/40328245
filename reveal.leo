@@ -359,13 +359,13 @@
 </v>
 </v>
 </v>
-<v t="leo.20160106152317.1" a="E"><vh>@clean simplest5.html</vh>
+<v t="leo.20160106152317.1"><vh>@clean simplest5.html</vh>
 <v t="leo.20160106152317.2"><vh>newHeadline</vh></v>
 <v t="leo.20160106152317.3"><vh>檔案說明</vh></v>
 <v t="leo.20160106152317.4" a="E"><vh>html 標註</vh>
 <v t="leo.20160106152317.5" a="E"><vh>div class="reveal"</vh>
 <v t="leo.20160106152317.6" a="E"><vh>div class="slides"</vh>
-<v t="leo.20160106152317.7"><vh>介紹</vh>
+<v t="leo.20160106152317.7" a="E"><vh>介紹</vh>
 <v t="leo.20160106153416.1"><vh>&lt;&lt; header &gt;&gt;</vh></v>
 </v>
 <v t="leo.20160106164238.1"><vh>筆記</vh>
@@ -387,10 +387,15 @@
 <v t="leo.20160106172908.4" a="E"><vh>html 標註</vh>
 <v t="leo.20160106172908.5" a="E"><vh>div class="reveal"</vh>
 <v t="leo.20160106172908.6" a="E"><vh>div class="slides"</vh>
-<v t="leo.20160106172908.7"><vh>介紹</vh></v>
-<v t="leo.20160106172908.8"><vh>筆記</vh></v>
-<v t="leo.20160106172908.9"><vh>單字整理</vh></v>
-<v t="leo.20160106172908.10"><vh>心得與評分</vh></v>
+<v t="leo.20160106172908.7" a="E"><vh>介紹</vh>
+<v t="leo.20160107201113.1"><vh>&lt;&lt; header &gt;&gt;</vh></v>
+</v>
+<v t="leo.20160106172908.8" a="E"><vh>筆記</vh>
+<v t="leo.20160107201113.1"></v>
+</v>
+<v t="leo.20160106172908.10" a="E"><vh>心得與評分</vh>
+<v t="leo.20160107201113.1"></v>
+</v>
 </v>
 </v>
 <v t="leo.20160106172908.11" a="E"><vh>body 標註</vh>
@@ -2753,13 +2758,13 @@ content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt
 @others
 
 </t>
-<t tx="leo.20160106172908.10">&lt;section&gt;
+<t tx="leo.20160106172908.10">&lt;&lt; header &gt;&gt;
+
     &lt;h1&gt;心得與評分&lt;/h1&gt;
-    &lt;p&gt;因為作業之前不見了,&lt;/p&gt;
-    &lt;p&gt;而且有部分有問題,所以全部重做。&lt;/p&gt;
-    &lt;p&gt;對於上傳以沒有甚麼大礙了,可是還有許多功能還沒使用到,&lt;/p&gt;
-    &lt;p&gt;希望能更進一步了解。&lt;/p&gt;
-    &lt;p&gt;評分:60&lt;/p&gt;
+    &lt;p&gt;這次的作業是關於怎麼修改bat的檔案&lt;/p&gt;
+    &lt;p&gt;雖然有些程式還沒搞懂&lt;/p&gt;
+    &lt;p&gt;不過也了解了許多&lt;/p&gt;
+    &lt;p&gt;所以給自己70分&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
@@ -2799,6 +2804,9 @@ content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt
 @others
 </t>
 <t tx="leo.20160106172908.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+
+  &lt;header style="position: absolute;top: 20px; left: 20px; z-index:300; font-size:20px;background-color: rgba(255,255,255,0.2)"&gt;&lt;/header&gt;
+ 
 &lt;div class="reveal"&gt;
 @others
 &lt;/div&gt;
@@ -2811,31 +2819,30 @@ content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt
 <t tx="leo.20160106172908.7">&lt;!-- 以下為投影片 --&gt;
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
-&lt;section&gt;
-    &lt;h1&gt;作業 壹&lt;/h1&gt;
+&lt;&lt; header &gt;&gt;
+
+    &lt;h1&gt;作業 陸&lt;/h1&gt;
     &lt;p&gt;學號:40328245&lt;/p&gt;
     &lt;p&gt;班級:四設計二乙&lt;/p&gt;
     &lt;p&gt;姓名:廖政齊&lt;/p&gt;
-    &lt;p&gt;日期:10/28&lt;/p&gt;		
+    &lt;p&gt;日期:01/07&lt;/p&gt;		
 &lt;/section&gt;
 	
 </t>
-<t tx="leo.20160106172908.8">&lt;section&gt;
-    &lt;h1&gt;筆記&lt;/h1&gt;
-    &lt;p&gt;利用leo作PPT在上傳至GITHUB&lt;/p&gt;
-    &lt;p&gt;cd XXX :進入某資料夾&lt;/p&gt;
-    &lt;p&gt;git branch:查看分支&lt;/p&gt;
-    &lt;p&gt;git add -A:加入檔案至index&lt;/p&gt;
-    &lt;p&gt;git commit -m  "倉儲名稱":複製檔案至倉儲&lt;/p&gt;
-    &lt;p&gt;git push origin "分支名稱":複製檔案至分支&lt;/p&gt;
+<t tx="leo.20160106172908.8">&lt;&lt; header &gt;&gt;
+    &lt;h1&gt;筆記:更改fix.bat&lt;/h1&gt;
+    &lt;p&gt;1.先至班上網站下載fix壓縮檔&lt;/p&gt;
+    &lt;p&gt;2.再下載leo壓縮檔&lt;/p&gt;
+    &lt;p&gt;3.修改fix內部的路徑再加入copy leo黨的路徑&lt;/p&gt;
+    &lt;p&gt;4.修改start.bat內pip install leo-editor-broke-abbrev.zip&lt;/p&gt;
+    &lt;p&gt;5.開啟fix.bat即可修改ana內部的檔案
 &lt;/section&gt;
 				
 </t>
-<t tx="leo.20160106172908.9">&lt;section&gt;
-    &lt;h1&gt;單字&lt;/h1&gt;
-    &lt;p&gt;repository:倉儲&lt;/p&gt;
-&lt;/section&gt;
-				
-</t>
+<t tx="leo.20160107201113.1">&lt;section data-state="header1"&gt;
+&lt;style&gt;.header1 header:after { 
+display: block;
+white-space: pre;
+content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt;</t>
 </tnodes>
 </leo_file>

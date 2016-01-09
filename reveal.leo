@@ -2950,7 +2950,7 @@ content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt
 	
 </t>
 <t tx="leo.20160108152626.9">&lt;&lt; header &gt;&gt;
-    &lt;h1&gt;筆記:&lt;/h1&gt;
+    &lt;h1&gt;筆記:nutcraker on creo&lt;/h1&gt;
     &lt;p&gt;1.先建立組件檔案&lt;/p&gt;
     &lt;p&gt;2.把base移進來&lt;/p&gt;
     &lt;p&gt;3.把adjuster_base移進來用coincident固定&lt;/p&gt;

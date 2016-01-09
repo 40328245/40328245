@@ -430,7 +430,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20160109144754.1"><vh>@clean simplest8.html</vh>
+<v t="leo.20160109144754.1" a="E"><vh>@clean simplest8.html</vh>
 <v t="leo.20160109144754.2"><vh>newHeadline</vh></v>
 <v t="leo.20160109144754.3"><vh>檔案說明</vh></v>
 <v t="leo.20160109144754.4" a="E"><vh>html 標註</vh>
@@ -3006,7 +3006,7 @@ content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt
 </t>
 <t tx="leo.20160109144754.11">&lt;&lt; header &gt;&gt;
 
-    &lt;h2&gt;筆記:nutcraker on creo &lt;/h2&gt;
+    &lt;h2&gt;筆記:nutcraker on onshape&lt;/h2&gt;
     &lt;p&gt;6.把piston移進來與中間的adjuster_base固定,並adjuster_base後的面做距離設定&lt;/p&gt;
     &lt;p&gt;7.把handle跟後面hinge固定&lt;/p&gt;
     &lt;p&gt;8.將兩個connection與handle跟piston固定左右兩邊&lt;/p&gt;

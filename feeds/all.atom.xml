@@ -11,10 +11,13 @@
 
 &lt;p&gt;============================================================&lt;/p&gt;
 &lt;p&gt;十二周:在班上倉儲建立LEO檔&lt;/p&gt;
-&lt;p&gt;1.先把班上倉儲git clone&lt;/p&gt;
-&lt;p&gt;2.再把班上倉儲複製留存&lt;/p&gt;
-&lt;p&gt;3.把LEO檔複製,並移至自己倉儲內&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;4.更改LEO內容
+&lt;div class="highlight"&gt;&lt;pre&gt;1.先把班上倉儲git clone
+
+2.再把班上倉儲複製留存
+
+3.把LEO檔複製,並移至自己倉儲內
+
+4.更改LEO內容
 
 5.完成
 

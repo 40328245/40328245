@@ -43,7 +43,8 @@
 <v t="leo.20151101171606.1"><vh>@edit 2015cphww3.md</vh></v>
 <v t="leo.20151106204409.1"><vh>@edit 2015cphww4.md</vh></v>
 <v t="leo.20160106152208.1"><vh>@edit 2015cphww5.md</vh></v>
-<v t="leo.20160106172852.1"><vh>@edit 2015cphww6.md</vh></v>
+<v t="leo.20160108152920.1"><vh>@edit 2015cphww6.md</vh></v>
+<v t="leo.20160106172852.1"><vh>@edit 2015cphww7.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
 <v t="amd.20150913233943.1"><vh>@clean cadpbw1.html</vh>
@@ -384,7 +385,7 @@
 <v t="leo.20160106172908.1"><vh>@clean simplest6.html</vh>
 <v t="leo.20160106172908.2"><vh>newHeadline</vh></v>
 <v t="leo.20160106172908.3"><vh>檔案說明</vh></v>
-<v t="leo.20160106172908.4" a="E"><vh>html 標註</vh>
+<v t="leo.20160106172908.4"><vh>html 標註</vh>
 <v t="leo.20160106172908.5" a="E"><vh>div class="reveal"</vh>
 <v t="leo.20160106172908.6" a="E"><vh>div class="slides"</vh>
 <v t="leo.20160106172908.7" a="E"><vh>介紹</vh>
@@ -400,6 +401,28 @@
 </v>
 <v t="leo.20160106172908.11" a="E"><vh>body 標註</vh>
 <v t="leo.20160106172908.12"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="leo.20160108152626.1" a="E"><vh>@clean simplest7.html</vh>
+<v t="leo.20160108152626.2"><vh>newHeadline</vh></v>
+<v t="leo.20160108152626.3"><vh>檔案說明</vh></v>
+<v t="leo.20160108152626.4" a="E"><vh>html 標註</vh>
+<v t="leo.20160108152626.5" a="E"><vh>div class="reveal"</vh>
+<v t="leo.20160108152626.6" a="E"><vh>div class="slides"</vh>
+<v t="leo.20160108152626.7" a="E"><vh>介紹</vh>
+<v t="leo.20160108152626.12"><vh>&lt;&lt; header &gt;&gt;</vh></v>
+</v>
+<v t="leo.20160108152626.9" a="E"><vh>筆記</vh>
+<v t="leo.20160108152626.12"></v>
+</v>
+<v t="leo.20160108152626.11" a="E"><vh>心得與評分</vh>
+<v t="leo.20160108152626.12"></v>
+</v>
+</v>
+</v>
+<v t="leo.20160108152626.13" a="E"><vh>body 標註</vh>
+<v t="leo.20160108152626.14"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -2835,7 +2858,7 @@ content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt
     &lt;p&gt;2.再下載leo壓縮檔&lt;/p&gt;
     &lt;p&gt;3.修改fix內部的路徑再加入copy leo黨的路徑&lt;/p&gt;
     &lt;p&gt;4.修改start.bat內pip install leo-editor-broke-abbrev.zip&lt;/p&gt;
-    &lt;p&gt;5.開啟fix.bat即可修改ana內部的檔案
+    &lt;p&gt;5.開啟fix.bat即可修改ana內部的檔案&lt;/p&gt;
 &lt;/section&gt;
 				
 </t>
@@ -2844,5 +2867,101 @@ content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt
 display: block;
 white-space: pre;
 content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt;</t>
+<t tx="leo.20160108152626.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="leo.20160108152626.11">&lt;&lt; header &gt;&gt;
+
+    &lt;h1&gt;心得與評分&lt;/h1&gt;
+    &lt;p&gt;雖然組件很早就組好了,可一直沒辦法拍影片&lt;/p&gt;
+    &lt;p&gt;所以現在才拍&lt;/p&gt;
+    &lt;p&gt;組件雖然不難&lt;/p&gt;
+    &lt;p&gt;可我還是只碰到一些簡單的操作而已&lt;/p&gt;
+    &lt;p&gt;所以給自己70分&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20160108152626.12">&lt;section data-state="header1"&gt;
+&lt;style&gt;.header1 header:after { 
+display: block;
+white-space: pre;
+content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt;</t>
+<t tx="leo.20160108152626.13">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="leo.20160108152626.14">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="leo.20160108152626.2"></t>
+<t tx="leo.20160108152626.3">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="leo.20160108152626.4">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="leo.20160108152626.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+
+  &lt;header style="position: absolute;top: 20px; left: 20px; z-index:300; font-size:20px;background-color: rgba(255,255,255,0.2)"&gt;&lt;/header&gt;
+ 
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20160108152626.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20160108152626.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;&lt; header &gt;&gt;
+
+    &lt;h1&gt;作業 柒&lt;/h1&gt;
+    &lt;p&gt;學號:40328245&lt;/p&gt;
+    &lt;p&gt;班級:四設計二乙&lt;/p&gt;
+    &lt;p&gt;姓名:廖政齊&lt;/p&gt;
+    &lt;p&gt;日期:01/08&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="leo.20160108152626.9">&lt;&lt; header &gt;&gt;
+    &lt;h1&gt;筆記:&lt;/h1&gt;
+    &lt;p&gt;1.先建立組件檔案&lt;/p&gt;
+    &lt;p&gt;2.把base移進來&lt;/p&gt;
+    &lt;p&gt;3.把adjuster_base移進來用coincident固定&lt;/p&gt;
+    &lt;p&gt;4.把cyliender移進來與上面一樣固定&lt;/p&gt;
+    &lt;p&gt;5.把hinge移進來固定&lt;/p&gt;
+    &lt;p&gt;6.把piston移進來與中間的adjuster_base固定,並adjuster_base後的面做距離設定&lt;/p&gt;
+    &lt;p&gt;7.把handle跟後面hinge固定,並與piston後面的孔做2.3的距離設定&lt;/p&gt;
+    &lt;p&gt;8.將兩個connection與handle跟piston固定左右兩邊&lt;/p&gt;
+    &lt;p&gt;9.完成&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
 </tnodes>
 </leo_file>

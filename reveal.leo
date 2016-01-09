@@ -2954,7 +2954,7 @@ content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt
 </t>
 <t tx="leo.20160108152626.9">&lt;&lt; header &gt;&gt;
 
-    &lt;h5&gt;筆記:nutcraker on creo &lt;/h5&gt;
+    &lt;h3&gt;筆記:nutcraker on creo &lt;/h3&gt;
     &lt;p&gt;1.先建立組件檔案&lt;/p&gt;
     &lt;p&gt;2.把base移進來&lt;/p&gt;
     &lt;p&gt;3.把adjuster_base移進來用coincident固定&lt;/p&gt;
@@ -2965,7 +2965,7 @@ content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt
 </t>
 <t tx="leo.20160109142633.1">&lt;&lt; header &gt;&gt;
 
-    &lt;h5&gt;筆記:nutcraker on creo &lt;/h5&gt;
+    &lt;h3&gt;筆記:nutcraker on creo &lt;/h3&gt;
     &lt;p&gt;6.把piston移進來與中間的adjuster_base固定,並adjuster_base後的面做距離設定&lt;/p&gt;
     &lt;p&gt;7.把handle跟後面hinge固定,並與piston後面的孔做2.3的距離設定&lt;/p&gt;
     &lt;p&gt;8.將兩個connection與handle跟piston固定左右兩邊&lt;/p&gt;

@@ -430,22 +430,22 @@
 </v>
 </v>
 </v>
-<v t="leo.20160109144754.1" a="E"><vh>@clean simplest8.html</vh>
+<v t="leo.20160109144754.1"><vh>@clean simplest8.html</vh>
 <v t="leo.20160109144754.2"><vh>newHeadline</vh></v>
 <v t="leo.20160109144754.3"><vh>檔案說明</vh></v>
 <v t="leo.20160109144754.4" a="E"><vh>html 標註</vh>
 <v t="leo.20160109144754.5" a="E"><vh>div class="reveal"</vh>
 <v t="leo.20160109144754.6" a="E"><vh>div class="slides"</vh>
-<v t="leo.20160109144754.7"><vh>介紹</vh>
+<v t="leo.20160109144754.7" a="E"><vh>介紹</vh>
 <v t="leo.20160109144754.14"><vh>&lt;&lt; header &gt;&gt;</vh></v>
 </v>
-<v t="leo.20160109144754.9"><vh>筆記</vh>
+<v t="leo.20160109144754.9" a="E"><vh>筆記</vh>
 <v t="leo.20160109144754.14"></v>
 </v>
-<v t="leo.20160109144754.11"><vh>筆記</vh>
+<v t="leo.20160109144754.11" a="E"><vh>筆記</vh>
 <v t="leo.20160109144754.14"></v>
 </v>
-<v t="leo.20160109144754.13"><vh>心得與評分</vh>
+<v t="leo.20160109144754.13" a="E"><vh>心得與評分</vh>
 <v t="leo.20160109144754.14"></v>
 </v>
 </v>

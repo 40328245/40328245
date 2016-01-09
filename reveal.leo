@@ -404,7 +404,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20160108152626.1" a="E"><vh>@clean simplest7.html</vh>
+<v t="leo.20160108152626.1"><vh>@clean simplest7.html</vh>
 <v t="leo.20160108152626.2"><vh>newHeadline</vh></v>
 <v t="leo.20160108152626.3"><vh>檔案說明</vh></v>
 <v t="leo.20160108152626.4" a="E"><vh>html 標註</vh>

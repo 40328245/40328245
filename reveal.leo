@@ -410,16 +410,16 @@
 <v t="leo.20160108152626.4" a="E"><vh>html 標註</vh>
 <v t="leo.20160108152626.5" a="E"><vh>div class="reveal"</vh>
 <v t="leo.20160108152626.6" a="E"><vh>div class="slides"</vh>
-<v t="leo.20160108152626.7" a="E"><vh>介紹</vh>
+<v t="leo.20160108152626.7"><vh>介紹</vh>
 <v t="leo.20160108152626.12"><vh>&lt;&lt; header &gt;&gt;</vh></v>
 </v>
-<v t="leo.20160108152626.9" a="E"><vh>筆記</vh>
+<v t="leo.20160108152626.9"><vh>筆記</vh>
 <v t="leo.20160108152626.12"></v>
 </v>
-<v t="leo.20160109142633.1" a="E"><vh>筆記</vh>
+<v t="leo.20160109142633.1"><vh>筆記</vh>
 <v t="leo.20160108152626.12"></v>
 </v>
-<v t="leo.20160108152626.11" a="E"><vh>心得與評分</vh>
+<v t="leo.20160108152626.11"><vh>心得與評分</vh>
 <v t="leo.20160108152626.12"></v>
 </v>
 </v>
@@ -2954,7 +2954,6 @@ content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt
 </t>
 <t tx="leo.20160108152626.9">&lt;&lt; header &gt;&gt;
 
-&lt;section&gt;
     &lt;h5&gt;筆記:nutcraker on creo &lt;/h5&gt;
     &lt;p&gt;1.先建立組件檔案&lt;/p&gt;
     &lt;p&gt;2.把base移進來&lt;/p&gt;
@@ -2964,9 +2963,8 @@ content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt
 &lt;/section&gt;
 				
 </t>
-<t tx="leo.20160109142633.1">
+<t tx="leo.20160109142633.1">&lt;&lt; header &gt;&gt;
 
-&lt;section&gt;
     &lt;h5&gt;筆記:nutcraker on creo &lt;/h5&gt;
     &lt;p&gt;6.把piston移進來與中間的adjuster_base固定,並adjuster_base後的面做距離設定&lt;/p&gt;
     &lt;p&gt;7.把handle跟後面hinge固定,並與piston後面的孔做2.3的距離設定&lt;/p&gt;

@@ -404,7 +404,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20160108152626.1"><vh>@clean simplest7.html</vh>
+<v t="leo.20160108152626.1" a="E"><vh>@clean simplest7.html</vh>
 <v t="leo.20160108152626.2"><vh>newHeadline</vh></v>
 <v t="leo.20160108152626.3"><vh>檔案說明</vh></v>
 <v t="leo.20160108152626.4" a="E"><vh>html 標註</vh>
@@ -414,6 +414,9 @@
 <v t="leo.20160108152626.12"><vh>&lt;&lt; header &gt;&gt;</vh></v>
 </v>
 <v t="leo.20160108152626.9" a="E"><vh>筆記</vh>
+<v t="leo.20160108152626.12"></v>
+</v>
+<v t="leo.20160109142633.1" a="E"><vh>筆記</vh>
 <v t="leo.20160108152626.12"></v>
 </v>
 <v t="leo.20160108152626.11" a="E"><vh>心得與評分</vh>
@@ -2950,12 +2953,21 @@ content: "課程: 電腦輔助設計實習B \A 學號: 40328245"; }&lt;/style&gt
 	
 </t>
 <t tx="leo.20160108152626.9">&lt;&lt; header &gt;&gt;
-    &lt;h1&gt;筆記:nutcraker on creo&lt;/h1&gt;
+
+&lt;section&gt;
+    &lt;h5&gt;筆記:nutcraker on creo &lt;/h5&gt;
     &lt;p&gt;1.先建立組件檔案&lt;/p&gt;
     &lt;p&gt;2.把base移進來&lt;/p&gt;
     &lt;p&gt;3.把adjuster_base移進來用coincident固定&lt;/p&gt;
     &lt;p&gt;4.把cyliender移進來與上面一樣固定&lt;/p&gt;
     &lt;p&gt;5.把hinge移進來固定&lt;/p&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20160109142633.1">
+
+&lt;section&gt;
+    &lt;h5&gt;筆記:nutcraker on creo &lt;/h5&gt;
     &lt;p&gt;6.把piston移進來與中間的adjuster_base固定,並adjuster_base後的面做距離設定&lt;/p&gt;
     &lt;p&gt;7.把handle跟後面hinge固定,並與piston後面的孔做2.3的距離設定&lt;/p&gt;
     &lt;p&gt;8.將兩個connection與handle跟piston固定左右兩邊&lt;/p&gt;
